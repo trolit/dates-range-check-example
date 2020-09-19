@@ -44,7 +44,8 @@ def validate_rent(rent):
         if rent.start_date < booked_date.end_date and rent.end_date > booked_date.start_date:
             return f'Rent between {adjust_date_format(rent.start_date)} and {adjust_date_format(rent.end_date)}' \
                    f' is not available' f' due to {adjust_date_format(booked_date.start_date)} - ' \
-                   f'{adjust_date_format(booked_date.end_date)} reservation ({Color.FAIL}R{(var_index + 1)}{Color.ENDC})'
+                   f'{adjust_date_format(booked_date.end_date)} reservation ' \
+                   f'({Color.FAIL}R{(var_index + 1)}{Color.ENDC})'
         var_index += 1
     return f'Rent between {adjust_date_format(rent.start_date)} and {adjust_date_format(rent.end_date)} is available.'
 
