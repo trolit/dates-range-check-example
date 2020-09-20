@@ -2,4 +2,4 @@
 
 <h5>Visual presentation of attempts</h5>
 
-<p align="center"><img src="https://place-hold.it/600x335" width="600" alt="Visual presentation of attempts"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/trolit/dates-range-check-example/master/drs-graphic.png" width="800" alt="Visual presentation of attempts"></p>
